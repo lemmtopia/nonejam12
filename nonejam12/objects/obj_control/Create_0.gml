@@ -8,5 +8,8 @@ window_center();
 surface_resize(application_surface, BASE_W, BASE_H);
 display_set_gui_size(BASE_W, BASE_H);
 
+// Coisas dos tiles
+#macro TILE_SIZE 16
+
 // Iniciar a room 
 room_goto(rm_test);

@@ -10,6 +10,3 @@ if (_movex != 0 || _movey != 0) {
 	hsp = 0;
 	vsp = 0;
 }
-
-x += hsp;
-y += vsp;
