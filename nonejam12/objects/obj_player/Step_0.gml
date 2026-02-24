@@ -17,6 +17,7 @@ if (_movex != 0 || _movey != 0) {
 // Empurrar as caixas
 var _box = instance_place(x + hsp, y + vsp, obj_box);
 if (_box && _box.world == world) {
-	_box.hsp = sign(hsp);	
-	_box.vsp = sign(vsp);	
+	var _push_dir = _dir; //floor(_dir / 90) * 90;
+	_box.hsp = lengthdir_x(1, _push_dir);	
+	_box.vsp = lengthdir_y(1, _push_dir);	
 }
