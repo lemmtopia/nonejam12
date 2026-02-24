@@ -1,3 +1,4 @@
+/*
 for (var _i = 0; _i < hearts; _i++) {
 	var _x = 3 + _i * 18;
 	
@@ -6,3 +7,4 @@ for (var _i = 0; _i < hearts; _i++) {
 	else if (hp div 4 < _i) __obj_player_draw_heart(_x, 3, 0);
 	else __obj_player_draw_heart(_x, 3, hp mod 4);
 }
+*/

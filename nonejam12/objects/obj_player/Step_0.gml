@@ -14,8 +14,9 @@ if (_movex != 0 || _movey != 0) {
 	vsp = 0;
 }
 
+// Empurrar as caixas
 var _box = instance_place(x + hsp, y + vsp, obj_box);
-if (_box) {
+if (_box && _box.world == world) {
 	_box.hsp = sign(hsp);	
 	_box.vsp = sign(vsp);	
 }

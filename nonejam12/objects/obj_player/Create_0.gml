@@ -24,6 +24,9 @@ hearts = 4;
 hp_max = hearts * 4;
 hp = hp_max;
 
+// Mundo
+world = 1;
+
 function __obj_player_animate() {
 	anim_time++;
 	if (anim_time >= anim_speed) {

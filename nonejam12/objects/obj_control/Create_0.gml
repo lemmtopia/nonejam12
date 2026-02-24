@@ -13,3 +13,14 @@ display_set_gui_size(BASE_W, BASE_H);
 
 // Iniciar a room 
 room_goto(rm_test);
+
+
+function __obj_control_change_world(_world) {
+	if (_world) {
+		layer_set_visible("Relief_2", false);	
+		layer_set_visible("Relief_1", true);	
+	} else {
+		layer_set_visible("Relief_1", false);	
+		layer_set_visible("Relief_2", true);
+	}	
+}
