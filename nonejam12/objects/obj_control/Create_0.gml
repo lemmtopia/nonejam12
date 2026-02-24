@@ -12,8 +12,14 @@ display_set_gui_size(BASE_W, BASE_H);
 #macro TILE_SIZE 16
 
 // Iniciar a room 
-room_goto(rm_test);
+room_goto(rm_menu);
 
+enum GAME_STATE {
+	MENU,
+	GAME
+}
+
+global.game_state = GAME_STATE.MENU;
 
 function __obj_control_change_world(_world) {
 	if (_world) {
