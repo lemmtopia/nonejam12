@@ -22,6 +22,12 @@ if (p1 == 1 || p2 == 1) {
 	hsp = 0;
 }
 
+// Colisão com as caixas
+if (place_meeting(x + hsp, y, obj_box)) {
+	while (!place_meeting(x + sign(hsp), y, obj_box)) x += sign(hsp);
+	hsp = 0;
+}
+
 x += hsp;
 
 // Colisão vertical
@@ -37,4 +43,13 @@ if (p1 == 1 || p2 == 1) {
 	vsp = 0;
 }
 
+// Colisão com as caixas
+if (place_meeting(x, y + vsp, obj_box)) {
+	while (!place_meeting(x, y + sign(vsp), obj_box)) y += sign(vsp);
+	vsp = 0;
+}
+
 y += vsp;
+
+// Ajustando a profundidade
+depth = -y;

@@ -13,3 +13,9 @@ if (_movex != 0 || _movey != 0) {
 	hsp = 0;
 	vsp = 0;
 }
+
+var _box = instance_place(x + hsp, y + vsp, obj_box);
+if (_box) {
+	_box.hsp = sign(hsp);	
+	_box.vsp = sign(vsp);	
+}
