@@ -1,2 +1,4 @@
-room_goto_next();
-alarm[0] = -1;
+if (room == room_last) {
+	global.game_state = GAME_STATE.MENU;
+	room_goto(rm_menu);
+} else room_goto_next();

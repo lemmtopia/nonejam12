@@ -10,7 +10,7 @@ if (global.game_state == GAME_STATE.GAME) {
 		else break;
 	}
 	
-	if (_active == _button_count && room != room_last) {
+	if (_active == _button_count) {
 		if (alarm[0] == -1) {
 			// Alarm para ir pra próxima fase
 			alarm[0] = game_get_speed(gamespeed_fps);	

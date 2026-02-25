@@ -4,7 +4,7 @@ cur_option += _movey;
 // Limitando o cursor
 cur_option = clamp(cur_option, 0, array_length(options) - 1);
 
-var _press = keyboard_check_pressed(vk_space);
+var _press = keyboard_check_pressed(vk_space) || keyboard_check_pressed(vk_enter);
 if (_press) {
 	var _opt = options[cur_option];
 	
