@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Desert",
-    "path":"folders/Sprites/Level/Desert.yy",
+    "name":"Tile Sets",
+    "path":"folders/Sprites/Level/Tile Sets.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

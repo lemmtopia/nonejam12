@@ -29,4 +29,6 @@ function __obj_control_change_world(_world) {
 		layer_set_visible("Relief_1", false);	
 		layer_set_visible("Relief_2", true);
 	}	
+	
+	audio_play_sound(snd_swap, 0, 0, 0.1);
 }

@@ -15,6 +15,7 @@ if (global.game_state == GAME_STATE.GAME) {
 			// Alarm para ir pra próxima fase
 			alarm[0] = game_get_speed(gamespeed_fps);	
 			instance_create_depth(0, 0, 0, obj_fade);
+			audio_play_sound(snd_win, 0, 0, 0.2);
 		}
 	}
 }

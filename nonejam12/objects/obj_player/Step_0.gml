@@ -20,4 +20,6 @@ if (_box && _box.world == world) {
 	var _push_dir = _dir; //floor(_dir / 90) * 90;
 	_box.hsp = lengthdir_x(1, _push_dir);	
 	_box.vsp = lengthdir_y(1, _push_dir);	
+	
+	if (!audio_is_playing(snd_push)) audio_play_sound(snd_push, 0, 0, 0.5);
 }

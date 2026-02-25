@@ -1,0 +1,2 @@
+SFX: https://opengameart.org/content/50-cc0-retro-synth-sfx (except snd_push)
+Art: https://pixel-boy.itch.io/ninja-adventure-asset-pack
