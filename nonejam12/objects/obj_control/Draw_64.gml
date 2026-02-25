@@ -1,0 +1,1 @@
+with (obj_fade) __obj_fade_draw();

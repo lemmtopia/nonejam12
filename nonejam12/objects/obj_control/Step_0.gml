@@ -11,6 +11,10 @@ if (global.game_state == GAME_STATE.GAME) {
 	}
 	
 	if (_active == _button_count && room != room_last) {
-		room_goto_next();
+		if (alarm[0] == -1) {
+			// Alarm para ir pra próxima fase
+			alarm[0] = game_get_speed(gamespeed_fps);	
+			instance_create_depth(0, 0, 0, obj_fade);
+		}
 	}
 }
