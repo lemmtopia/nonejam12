@@ -12,7 +12,7 @@ if (_press) {
 	switch (_opt.type) {
 		case MENU_OPTION.PLAY:
 			global.game_state = GAME_STATE.GAME;
-			room_goto(rm_4);
+			room_goto(rm_1);
 			break;
 		case MENU_OPTION.QUIT:
 			game_end();
