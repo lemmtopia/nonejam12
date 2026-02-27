@@ -11,6 +11,11 @@ for (var _i = 0; _i < array_length(options); _i++) {
 	scr_draw_text_outline(BASE_W / 2, BASE_H / 2 + _i * 12, options[_i].text, _col);	
 }
 
+draw_set_font(fnt_tutorial);
+
+scr_draw_text_outline(BASE_W / 2, BASE_H - 20, "Pressione Space para selecionar", c_white);	
+
+
 draw_set_halign(-1);
 draw_set_valign(-1);
 

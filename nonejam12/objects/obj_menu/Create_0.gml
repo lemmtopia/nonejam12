@@ -1,5 +1,6 @@
 enum MENU_OPTION {
 	PLAY,
+	TUTORIAL,
 	QUIT
 }
 
@@ -7,6 +8,10 @@ options = [
 	{
 		text: "Jogar",
 		type: MENU_OPTION.PLAY
+	},
+	{
+		text: "Tutorial",
+		type: MENU_OPTION.TUTORIAL
 	}, 
 	{
 		text: "Sair",

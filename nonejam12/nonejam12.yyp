@@ -46,6 +46,7 @@
   "name":"nonejam12",
   "resources":[
     {"id":{"name":"fnt_font","path":"fonts/fnt_font/fnt_font.yy",},},
+    {"id":{"name":"fnt_tutorial","path":"fonts/fnt_tutorial/fnt_tutorial.yy",},},
     {"id":{"name":"nt_credits","path":"notes/nt_credits/nt_credits.yy",},},
     {"id":{"name":"obj_box","path":"objects/obj_box/obj_box.yy",},},
     {"id":{"name":"obj_button_swap","path":"objects/obj_button_swap/obj_button_swap.yy",},},
@@ -55,6 +56,7 @@
     {"id":{"name":"obj_fade","path":"objects/obj_fade/obj_fade.yy",},},
     {"id":{"name":"obj_menu","path":"objects/obj_menu/obj_menu.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"obj_tutorial","path":"objects/obj_tutorial/obj_tutorial.yy",},},
     {"id":{"name":"rm_1","path":"rooms/rm_1/rm_1.yy",},},
     {"id":{"name":"rm_2","path":"rooms/rm_2/rm_2.yy",},},
     {"id":{"name":"rm_3","path":"rooms/rm_3/rm_3.yy",},},
