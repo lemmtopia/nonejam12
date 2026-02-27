@@ -19,3 +19,5 @@ options = [
 	}
 ];
 cur_option = 0;
+
+sel_text = "Pressione Space para selecionar";
