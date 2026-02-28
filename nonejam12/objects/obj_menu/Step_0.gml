@@ -7,7 +7,7 @@ cur_option += _movey;
 cur_option = clamp(cur_option, 0, array_length(options) - 1);
 
 var _press = keyboard_check_pressed(vk_space);
-if (_press) {
+if (_press && !press) {
 	var _opt = options[cur_option];
 	
 	// Qual opção é a que eu selecionei?
@@ -23,4 +23,8 @@ if (_press) {
 			game_end();
 			break;
 	}
+	
+	press = true;
 }
+
+press = false;

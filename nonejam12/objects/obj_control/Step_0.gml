@@ -18,4 +18,9 @@ if (global.game_state == GAME_STATE.GAME) {
 			audio_play_sound(snd_win, 0, 0, 0.2);
 		}
 	}
+	
+	if (hint_show) {
+		hint_alpha += 0.1;
+		if (hint_alpha > 1) hint_alpha = 1;
+	}
 }

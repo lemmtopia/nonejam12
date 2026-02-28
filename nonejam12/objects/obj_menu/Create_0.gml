@@ -21,3 +21,8 @@ options = [
 cur_option = 0;
 
 sel_text = "Pressione Space para selecionar";
+
+audio_stop_all();
+audio_play_sound(snd_menumusic, 1, true, 0.75);
+
+press = 0;

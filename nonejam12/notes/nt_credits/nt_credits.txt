@@ -1,3 +1,5 @@
 SFX: https://opengameart.org/content/50-cc0-retro-synth-sfx (except snd_push)
 Art: https://pixel-boy.itch.io/ninja-adventure-asset-pack
 Font: https://www.dafont.com/pixel-operator.font
+Menu Music: https://opengameart.org/content/menu-loop
+Game Music: https://opengameart.org/content/happy-melody
