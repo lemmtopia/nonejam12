@@ -1,2 +1,2 @@
 text = "Alterne entre os mundos para empurrar caixas diferentes.\nColoque as caixas em seus devidos botões.\nControles\nSetas: Mover\nSpace: Trocar de mundo\nR: Reiniciar fase\nAlt + Enter: Trocar entre tela cheia e janela";
-enter_text = "Pressione Enter para continuar";
+enter_text = "Pressione Space para continuar";
