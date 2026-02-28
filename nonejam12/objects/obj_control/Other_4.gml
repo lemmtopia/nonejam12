@@ -20,7 +20,7 @@ if (global.game_state == GAME_STATE.GAME && !audio_is_playing(snd_gamemusic)) {
 // Acionando os alarms das dicas
 if (room == rm_1) {
 	alarm[1] = game_get_speed(gamespeed_fps) * 8;	
-} else if (room == rm_3) {
+} else if (room == rm_4) {
 	alarm[1] = game_get_speed(gamespeed_fps) * 15;	
 }
 

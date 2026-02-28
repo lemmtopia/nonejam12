@@ -34,7 +34,7 @@ function __obj_control_change_world(_world) {
 }
 
 hint1_text = "Space: Troca de mundo";
-hint3_text = "Dica: Empurrar as caixas nesse jogo é estranho...";
+hint4_text = "Dica: Empurrar as caixas nesse jogo é estranho...";
 
 hint_show = false;
 hint_alpha = 0;

@@ -2,8 +2,8 @@ if (hint_show) {
 	var _text = "";
 	if (room == rm_1) {
 		_text = hint1_text;
-	} else if (room == rm_3) {
-		_text = hint3_text;
+	} else if (room == rm_4) {
+		_text = hint4_text;
 	}
 	
 	if (_text != "") {
